@@ -1,0 +1,22 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": true,
+    "number-leading-zero": null,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "overrides": [
+        {
+            "files": "*.scss",
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+  }
+  

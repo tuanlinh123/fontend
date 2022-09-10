@@ -1,0 +1,381 @@
+a:hover {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+.home {
+    background-color: rgb(234, 234, 234);
+}
+p {
+    margin-bottom: 0;
+}
+
+.line-head{
+    background-color: rgb(231, 78, 78);
+    height: 2px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 48px;
+    border-top-style: solid;
+    border-color: #f7a818;
+}
+
+.head-logo{
+    text-align: start;
+    font-size: large;
+    font-weight: 600;
+    width: 161px;
+}
+
+.head-item-first{
+    margin-left: 22px;
+}
+.head-item{
+    width: 80px;
+    color: black;
+    font-size: 12px;
+}
+
+.head-search-form{
+    padding-left: 23px;
+}
+
+.head-search-input{
+    width: 500px;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+.btn-head{
+    font-size: 13px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(196, 223, 223);
+}
+
+.signUp {
+    background-color: rgb(67, 163, 242);
+}
+
+.head-login{
+    width: 65px;
+    margin-left: 22px;
+}
+.head-signUp{
+    width: 65px;
+}
+
+.lq-nav {
+    display: flex;
+    margin-top: 7px;
+}
+.lq-nav-questionCount {
+    text-align: start;
+    width: 50%;
+}
+.lq-nav-navbar {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    width: 50%;
+
+}
+.lq-nav-navbar-item {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+    background-color: #e4e4e4;
+    color: black;
+}
+.first {
+    border-left-style: solid;
+}
+
+/* .header {
+    width: 100%;
+    margin: 0px;
+} */
+
+
+.body{
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.listQuestion {
+    background-color: #f9f9f9;
+    padding: 23px;
+    height: 1000px;
+    width: 60%;
+}
+
+.lq-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lq-head-title{
+    font-size: x-large;
+    font-weight: 600;
+    width: 50%;
+}
+.lq-head-title-text {
+    text-align: start;
+}
+
+.lq-head-title-btn{
+    border-radius: 3px;
+    background-color: rgb(144 214 255);
+    border: 0px;
+}
+
+.lq-head-btn{
+    text-align: end;
+    width: 50%;
+}
+
+.advertise {
+    background-color: #f9f9f9;
+    height: 1000px;
+    width: 20%;
+}
+.related-tags{
+    margin-top: 26px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #5a8db1;
+    padding: 5px 0px 5px 10px;
+}
+.rt-title{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.rt-list{
+    font-size: 13px;
+}
+.rt-list-item{
+    display: flex;
+    padding-top: 13px;
+}
+.rt-list-item-tag{
+    border-radius: 4px;
+    margin-right: 10px;
+    border: 0;
+    background-color: rgb(210 221 243);
+    color: #2e4d6d;
+}
+
+.lq-list {
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: start;
+    margin-left: -43px;
+}
+
+.lq-list-item {
+    display: flex;
+    border-top: 1px solid rgb(118, 116, 116);
+    padding: 15px 45px 15px 45px;
+    font-size: 13px;
+}
+.lq-list-item-value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+    margin-right: 20px;
+    padding-top: 6px;
+}
+.lq-list-item-body {
+    width: 75%;
+}
+.lq-list-item-vote {
+    display: inline-flex;
+}
+.lq-list-item-title {
+    color: rgb(55, 118, 227);
+    font-size: 17px;
+}
+.text-votes {
+    padding-left: 7px;
+}
+
+.tag-button{
+    border-radius: 4px;
+    margin-left: 10px;
+    border: 0;
+    background-color: rgb(210 221 243);
+    color: #2e4d6d;
+}
+
+.quickAccess {
+    background-color: #f9f9f9;
+    height: 1000px;
+    width: 20%;
+    padding: 34px 0px 0px 47px;
+    border-right-style: solid;
+    border-width: 1px;
+}
+.qa-text{
+    color:black;
+}
+
+.quickAccess-ol{
+    list-style: none;
+}
+.qa-home{
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.qa-public{
+    text-align: start;
+    padding-left: 3px;
+}
+.qa-public-ol{
+    list-style: none;
+}
+.qa-public-title{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.qa-public-item{
+    font-size: 11px;
+    padding: 0px 0px 10px 20px;
+    text-align: start;
+}
+.qa-public-item-active{
+    background-color: #b3b9c0;
+    border-radius: 6px;
+    font-weight: 1000;
+    /* align-items: center; */
+    padding-top: 10px;
+    border-right-style: solid;
+    border-color: #f58553;
+    border-width: 3px;
+}
+.qa-team-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.qa-team-dep{
+    font-size: 11px;
+    border-style: solid;
+    border-right-style: none;
+    border-radius: 3px;
+    padding: 10px 3px 8px 6px;
+    border-width: thin;
+}
+.qa-item1-text-title{
+    font-weight: 600;
+}
+.qa-iteam2-img{
+    width: 112px;
+    height: 109px;
+}
+.qa-team-dep-item2{
+    display: flex;
+    justify-content: center;
+}
+.qa-item3-ab1{
+    display: flex;
+    justify-content: center;
+}
+.qa-item3-ab2{
+    display: flex;
+    justify-content: center;
+}
+.qa-item3-btn{
+    background-color: #f9840c;
+    border-width: 0.1px;
+    color: white;
+}
+
+
+.ad-img{
+    border-radius: 7px;
+    width: 205px;
+    height: 205px;
+    margin-bottom: 18px;
+}
+.adImg1{
+    margin-top: 30px;
+}
+.qa-img{
+    margin-left: -85px;
+}
+.qa-img1{
+    margin-top: 20px;
+}
+
+/* footer ------------------------------------------ */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #181b1b;
+    color: #838687;
+    padding-top: 30px;
+    padding-bottom: 72px;
+}
+.ft-item1{
+    width: 15%;
+}
+.ft-item2{
+    width: 15%;
+}
+.ft-item3{
+    width: 15%;
+}
+.ft-item4{
+    width: 15%;
+}
+.ft-item5{
+    width: 30%;
+    padding-left: 50px;
+}
+.ft-text-title{
+    font-weight: 1000;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.ft-text-dep{
+    font-size: 10px;
+    margin-top: 4px;
+}
+.ft-item5-up{
+    display: flex;
+    padding-top: 10px;
+}
+.ft-item5-tag{
+    padding-right: 5px;
+}
+.ft-item5-down-dep{
+    font-size: 9px;
+}
+.ft-item5-down{
+    margin-top: 145px;
+}
+.ft-logo{
+    color: rgb(79, 96, 225);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
